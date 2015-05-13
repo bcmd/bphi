@@ -7,4 +7,6 @@ The `models` directory contains model definitions in [BCMD][bcmd] format. The ma
 ## Data
 Experimental data from the two piglets LWP180 and LWP188 are included in the `csv` directory. The subdirectory `csv` provides the data in CSV format, while the `inputs` file contains only the input data for the model, in BCMD input format. Two additional input files, named with the suffix `_init`, specify the parameters defining the insult period for the `bp20_insult.modeldef` model addition. These are required when running optimisations that attempt to account for the different scenarios. They are not needed in other cases -- the default parameterisation should suffice.
 
+[![DOI](https://zenodo.org/badge/11938/bcmd/bphi.svg)](http://dx.doi.org/10.5281/zenodo.17575)
+
 [bcmd]: https://github.com/bcmd/BCMD
